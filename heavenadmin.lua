@@ -1,15 +1,3 @@
-
-
-local args = {
-	[1] = "Thanks For Buying Heaven!...[📜]",
-	[2] = "All"
-}
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-
-wait (0.5)
-
-
 local Es = Instance.new("ScreenGui")
 local Drag = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
